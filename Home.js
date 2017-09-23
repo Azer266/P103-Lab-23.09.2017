@@ -4,7 +4,7 @@ numberinput.addEventListener('focus', function () {
 	this.value='+994-';
 })
 
-numberinput.addEventListener('keydown', function () {
+numberinput.addEventListener('keyup', function () {
 	if (this.value.length==7 || this.value.length==11 || this.value.length==14){
 		this.value+='-';
 	}
